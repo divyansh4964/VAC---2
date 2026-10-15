@@ -1,16 +1,11 @@
-# React + Vite
+# Web development projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository contains several independent learning projects:
 
-Currently, two official plugins are available:
+- [Dom](./Dom/index.html) — basic DOM manipulation
+- [Dynamic_Block](./Dynamic_Block/index.html) — dynamically add blocks to a page
+- [Fetch_API](./Fetch_API/index.html) — GET and POST requests with the Fetch API
+- [React_Virtual_DOM](./React_Virtual_DOM/) — a React counter demonstrating component state
+- [to do app](./to%20do%20app/README.md) — a responsive task manager built with React and Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Open the HTML files for the plain JavaScript exercises. To run the React counter or to-do app, open a terminal in that project's folder, run `npm install`, then `npm run dev`.
